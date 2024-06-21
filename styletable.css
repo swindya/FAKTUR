@@ -1,0 +1,104 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body
+{
+	line-height: 1.6em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gradient-style
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin-left: auto;
+	margin-top: auto;
+	width: 1300px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#gradient-style th
+{
+	font-size: 11px;
+	font-weight: normal;
+	padding: 8px;
+	height: 40px;
+	background: #b9c9fe url('table-images/gradhead.png') repeat-x;
+	border-top: 2px solid #d3ddff;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#gradient-style td
+{
+	padding: 3px; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid #fff;
+	background: #e8edff url('table-images/gradback.png') repeat-x;
+}
+#gradient-style tfoot tr td
+{
+	background: #e8edff;
+	font-size: 11px;
+	color: #99c;
+}
+#gradient-style tbody tr:hover td
+{
+	background: #d0dafd url('table-images/gradhover.png') repeat-x;
+	color: #339;
+}
+
+
+#pattern-style-a
+{
+    position: absolute;
+	left:10; right:10;
+    top:95; bottom:10;
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 20px;
+	width: 1960px;
+	text-align: left;
+	float: left;
+	border-collapse: collapse;
+	background: url('table-images/orangepattern.png');
+
+}
+#pattern-style-a thead tr
+{
+	background: url('table-images/orangepattern.jpg');
+}
+#pattern-style-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 6px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #aabcfe;
+	border-left: 1px solid #aabcfe;
+	color: #fff;
+}
+#pattern-style-a td
+{
+	padding: 4px;
+	text-align: left;
+	border-bottom: 1px solid #fff;
+	color: #000;	//font color: f00-merah, fff-putih, 000-hitam
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #6678b1;
+	border-right: 1px solid #aabcfe;
+	border-left: 1px solid #aabcfe;
+	background-color: #dfe
+}
+#pattern-style-a tbody tr:hover td
+{
+	color: #339;
+	background: #aff;
+}
+
+
